@@ -1,0 +1,31 @@
+# Dependencies for the whole project (collection + analysis).
+# Install from the repo root with:
+#   pip install -r requirements.txt
+# Then download the NLTK data the notebooks use:
+#   python -m nltk.downloader stopwords punkt punkt_tab wordnet vader_lexicon
+
+# --- Core / shared ---
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+scipy>=1.11
+requests>=2.31
+python-dotenv>=1.0
+
+# --- Data collection (src/) ---
+praw>=7.8              # reddit_collection.py
+
+# --- NLP analysis notebook ---
+nltk>=3.8
+scikit-learn>=1.3
+text-prettifier>=2.0
+text2emotion>=0.0.5
+emoji==1.7.0           # text2emotion needs this exact version; newer emoji releases break it
+aiohttp>=3.9
+transformers>=4.40
+torch>=2.0
+
+# --- ARIMAX modeling notebook ---
+statsmodels>=0.14
+pmdarima>=2.0          # optional; the notebook falls back to a manual search if missing
