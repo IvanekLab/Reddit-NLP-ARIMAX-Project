@@ -1,4 +1,4 @@
-# Cornell Reddit H5N1 Project
+# Reddit H5N1 Project
 
 Code for a research project analyzing online discussion of avian flu (H5N1).
 It collects Reddit comments and Google News articles about bird flu, runs an
