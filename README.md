@@ -6,6 +6,16 @@ NLP analysis of that discussion (sentiment, toxicity, topic modeling, n-grams),
 and models weekly Reddit comment volume over time against external signals such
 as news activity, egg prices, and animal-case data.
 
+## Associated publication
+
+This repository contains the code accompanying:
+
+> Dalla Pria, L., Nelson, A. L., Koebel, K. J., & Ivanek, R. (2026). 
+> Mammalian spillover events predict the volume and emotion of online 
+> discourse during the US H5N1 outbreak. *Nature Communications* (submitted).
+
+Archived version: [Zenodo DOI 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+
 ## Repository structure
 
 ```
@@ -17,8 +27,8 @@ cornell-reddit-h5n1-project/
 │   ├── google_news_collection.py
 │   └── .env.example
 ├── notebooks/                 # Analysis and modeling
-│   ├── Reddit_NLP_Data_Analysis.ipynb
-│   └── ARIMAX_modeling.ipynb
+│   ├── Luizza_Reddit_NLP_Data_Analysis_2026.ipynb
+│   └── Luizza_ARIMAX_Modeling_2026.ipynb
 └── figures/                   # Generated charts
 ```
 
@@ -50,9 +60,9 @@ Collection can take a while and may pause for API rate limits — this is normal
 
 Open the notebooks in VS Code or Jupyter:
 
-- `Reddit_NLP_Data_Analysis.ipynb` — data cleaning, EDA, n-grams, sentiment,
+- `Luizza_Reddit_NLP_Data_Analysis_2026.ipynb` — data cleaning, EDA, n-grams, sentiment,
   toxicity, and topic modeling.
-- `ARIMAX_modeling.ipynb` — ARIMA / ARIMAX time-series modeling of weekly
+- `Luizza_ARIMAX_Modeling_2026.ipynb` — ARIMA / ARIMAX time-series modeling of weekly
   comment volume.
 
 ## Data files
@@ -68,3 +78,18 @@ with the research.
 
 - API keys are loaded from a local `.env` file and are never committed.
 - `.gitignore` excludes `.env`, data files (`*.csv`), and Python caches.
+
+## Citation
+
+If you use this code, please cite:
+
+> Dalla Pria, L. et al. (2026). Mammalian spillover events predict the volume 
+> and emotion of online discourse during the US H5N1 outbreak. TBD. DOI: [paper DOI once available]
+
+## License
+
+This project is licensed under the terms of the LICENSE file in this repository.
+
+## Contact
+
+For questions, contact Luizza Dalla Pria (ln326@cornell.edu).
