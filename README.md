@@ -12,7 +12,7 @@ This repository contains the code accompanying:
 
 > Dalla Pria, L., Nelson, A. L., Koebel, K. J., & Ivanek, R. (2026). 
 > Mammalian spillover events predict the volume and emotion of online 
-> discourse during the US H5N1 outbreak. *Nature Communications* (submitted).
+> discourse during the US H5N1 outbreak. TBD.
 
 Archived version: [Zenodo DOI 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
 
