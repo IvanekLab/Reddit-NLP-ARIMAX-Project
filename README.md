@@ -1,6 +1,7 @@
 # Reddit H5N1 Infoveillance Project
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23070435.svg)](https://doi.org/10.5281/zenodo.23070435)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Code for a research project analyzing online discussion of avian flu (H5N1).
 It collects Reddit comments and Google News articles about bird flu, runs an
