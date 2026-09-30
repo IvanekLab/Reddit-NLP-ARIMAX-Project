@@ -1,4 +1,6 @@
-# Reddit H5N1 Project
+# Reddit H5N1 Infoveillance Project
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23070435.svg)](https://doi.org/10.5281/zenodo.23070435)
 
 Code for a research project analyzing online discussion of avian flu (H5N1).
 It collects Reddit comments and Google News articles about bird flu, runs an
@@ -14,13 +16,15 @@ This repository contains the code accompanying:
 > Mammalian spillover events predict the volume and emotion of online 
 > discourse during the US H5N1 outbreak. TBD.
 
-Archived version: [Zenodo DOI 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+[Zenodo DOI 10.5281/zenodo.23070435](https://doi.org/10.5281/zenodo.23070435)
 
 ## Repository structure
 
 ```
-cornell-reddit-h5n1-project/
+Reddit-NLP-ARIMAX-Project/
 ├── README.md
+├── LICENSE
+├── .gitignore
 ├── requirements.txt           # All dependencies (collection + analysis)
 ├── src/                       # Data collection scripts
 │   ├── reddit_collection.py
@@ -70,9 +74,12 @@ Open the notebooks in VS Code or Jupyter:
 The notebooks read CSVs produced by the collection scripts plus a few external
 sources (egg prices, poultry / cattle / mammal / wild-bird cases). Place these
 files where the notebooks expect them (paths are set near the top of each
-notebook). Because API results change over time, re-running collection produces
-fresh data; to reproduce the published findings, use the CSV snapshots included
-with the research.
+notebook). Because Reddit and Google News API results change over time 
+(deleted posts, updated indexing), re-running the collection scripts will 
+produce a dataset that differs from the one analyzed in the paper. Exact 
+numerical reproduction of the published findings is therefore not possible 
+from raw collection alone; the code and methodology are provided so that the 
+analysis can be re-executed on newly collected data or on comparable datasets.
 
 ## Notes
 
@@ -84,7 +91,8 @@ with the research.
 If you use this code, please cite:
 
 > Dalla Pria, L. et al. (2026). Mammalian spillover events predict the volume 
-> and emotion of online discourse during the US H5N1 outbreak. TBD. DOI: [paper DOI once available]
+> and emotion of online discourse during the US H5N1 outbreak. Manuscript
+> submitted to Nature Communications. Code: https://doi.org/10.5281/zenodo.23070435
 
 ## License
 
