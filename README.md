@@ -33,7 +33,7 @@ Reddit-NLP-ARIMAX-Project/
 ├── notebooks/                 # Analysis and modeling
 │   ├── Luizza_Reddit_NLP_Data_Analysis_2026.ipynb
 │   └── Luizza_ARIMAX_Modeling_2026.ipynb
-└── figures/                   # Generated charts
+└──
 ```
 
 ## Setup
